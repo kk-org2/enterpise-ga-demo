@@ -5,7 +5,7 @@ on:
 
 jobs:
   no_proxy:
-    runs-on: production
+    runs-on: self-hosted
     steps:
       - name: Verify Proxy Settings
         run: |
