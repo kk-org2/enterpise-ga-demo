@@ -1,0 +1,12 @@
+name: access
+
+on:
+    push:
+
+jobs:
+  no_proxy:
+    runs-on: production
+    steps:
+      - name: Verify Proxy Settings
+        run: |
+          echo "Hello"
